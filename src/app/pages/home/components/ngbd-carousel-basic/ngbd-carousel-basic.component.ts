@@ -10,13 +10,6 @@ export class NgbdCarouselBasic {
 
 	constructor(private produtosService: ProdutosService) { }
 
-	// images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
-
-	// images = ["./img/monitor.png",
-	// 	 "./img/notebook.png",
-	// 	 "./img/phone.png",
-	// 	 "./img/smartphone.png",
-	// 	 "./img/teclado.png",
 	produto: any[] = [];
 
 	ngOnInit() {
