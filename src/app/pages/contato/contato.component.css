@@ -1,0 +1,108 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* Container do formulário */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+/* Estilos para inputs e textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #4299e1;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+}
+
+/* Estilo especial para campos obrigatórios */
+input[required] {
+    border-left: 3px solid #4299e1;
+    padding-left: 10px;
+}
+
+/* Estilo para textarea */
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Estilos para botões */
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #4299e1;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #3182ce;
+    transform: translateY(-2px);
+}
+
+button[type="reset"] {
+    background-color: #e2e8f0;
+    color: #4a5568;
+}
+
+button[type="reset"]:hover {
+    background-color: #cbd5e0;
+    transform: translateY(-2px);
+}
+
+/* Responsividade */
+@media (max-width: 640px) {
+    form {
+        padding: 20px;
+    }
+    
+    input[type="text"],
+    textarea {
+        padding: 10px;
+    }
+    
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
