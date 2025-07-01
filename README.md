@@ -4,6 +4,13 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Development server
 
+precisa usar o comando antes de rodar na primeira vez
+
+```bash
+ng add @ng-bootstrap/ng-bootstrap
+```
+
+
 To start a local development server, run:
 
 ```bash
