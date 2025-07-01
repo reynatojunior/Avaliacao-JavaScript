@@ -6,6 +6,7 @@ import { CardProdutoComponent } from '../card-produto/card-produto.component';
   selector: 'app-galeria-produtos',
   imports: [CardProdutoComponent],
   templateUrl: './galeria-produtos.component.html',
+  styleUrls: ['./galeria-produtos.component.css'],
 })
 export class GaleriaProdutosComponent {
 

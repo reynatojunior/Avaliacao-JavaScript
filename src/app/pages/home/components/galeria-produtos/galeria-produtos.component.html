@@ -1,8 +1,13 @@
 <div class="galeria-container">
-    
-    
 
-<app-card-produto></app-card-produto>
+    @for (prod of produtos; track prod) {
+      <app-card-produto 
+        produto="{{prod.produto}}"
+        preco="{{prod.preco}}"
+        detalhe="{{prod.detalhe}}"
+        imagem="{{prod.imagem}}"
+      ></app-card-produto>
+    }
 
-    
+
 </div>

@@ -1,12 +1,15 @@
 .card-produto {
-  border: 1px solid #e2e8f0;
+  border: 1px solid #444b5a; /* Usando cor do input/button */
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
   padding: 16px;
-  background: #fff;
+  background: #2c313a; /* Fundo igual ao input global */
   max-width: 250px;
+  min-width: 200px;
+  height: 300px;
   text-align: center;
-  margin: 10px auto;
+  /* margin: 10px auto; */
+  color: #e0e0e0; /* Cor de texto global */
 }
 
 .card-produto__imagem {
@@ -14,22 +17,25 @@
   height: 150px;
   object-fit: contain;
   margin-bottom: 12px;
+  background: #23272f; /* Fundo igual ao body */
+  border-radius: 4px;
 }
 
 .card-produto__titulo {
   font-size: 1.1rem;
   font-weight: bold;
   margin: 0 0 8px 0;
+  color: #8ab4f8; /* Cor de link global */
 }
 
 .card-produto__detalhe {
   font-size: 0.95rem;
-  color: #555;
+  color: #e0e0e0; /* Cor de texto global */
   margin-bottom: 10px;
 }
 
 .card-produto__preco {
   font-size: 1.2rem;
-  color: #3498db;
+  color: #4f8cff; /* Cor de hover do link */
   font-weight: bold;
 }

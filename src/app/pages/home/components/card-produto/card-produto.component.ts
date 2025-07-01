@@ -10,7 +10,7 @@ export class CardProdutoComponent {
 
 
   @Input() produto: string = "";
-  @Input() preco: number = 0;
+  @Input() preco: any = "";
   @Input() detalhe: string = "";
   @Input() imagem: string = "";
   
