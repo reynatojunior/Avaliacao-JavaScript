@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core'; // Importe OnInit
 import { HttpClient, HttpClientModule } from '@angular/common/http'; // Importe HttpClientModule
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms'; // Mantenha ReactiveFormsModule
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-contato',
@@ -9,7 +10,8 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
   standalone: true, // Garante que é um componente standalone
   imports: [
     ReactiveFormsModule, // Necessário para usar formGroup e formControlName
-    HttpClientModule // Necessário para usar HttpClient
+    HttpClientModule, // Necessário para usar HttpClient
+    CommonModule
   ],
 })
 export class ContatoComponent implements OnInit { // Implemente OnInit
