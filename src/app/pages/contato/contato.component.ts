@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core'; 
 import { HttpClient, HttpClientModule } from '@angular/common/http'; 
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms'; 
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-contato',
@@ -9,7 +10,8 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
   standalone: true, 
   imports: [
     ReactiveFormsModule, 
-    HttpClientModule 
+    HttpClientModule ,
+    CommonModule
   ],
 })
 export class ContatoComponent implements OnInit { 
