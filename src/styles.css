@@ -53,14 +53,13 @@ textarea {
   padding: 2em 1em;
 }
 
-
 .picsum-img-wrapper {
   display: flex;
   justify-content: center;
 }
 
 .picsum-img-wrapper img {
-  height: 500px;
+  height: 300px;
 }
 
 
